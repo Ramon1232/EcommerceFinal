@@ -1,0 +1,15 @@
+/* Mobile menu */ 
+.menu { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; } 
+     .toggle { order: 1; } .item.button { order: 2; } 
+     .item { width: 100%; text-align: center; order: 3; display: none; } 
+     .item.active { display: block; }
+
+
+     .menu_bar {
+        display:none;
+    }
+    .card-header-image {
+        height: 18vh;
+        width: 100%;
+        object-fit: cover;
+      }
